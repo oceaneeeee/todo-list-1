@@ -32,7 +32,7 @@ app.get("/todo-list", function (req, res) {
 
 app.post("/todo-save", function (req, res) {
 
-    console.log(req.body)
+    //console.log(req.body)
     color1 = req.body.color;
 
     if (req.body.description) {
